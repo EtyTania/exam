@@ -1,0 +1,144 @@
+/*font start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+/*font end*/
+/*common */
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #242323;
+}
+.c_padding{
+	padding: 46px 0 56px !important;
+}
+
+/*common */
+/*head start*/
+.menu{}
+.menu ul li a{
+	margin-right: 57px;
+	font-weight: 500 !important;
+}
+.menu ul li:last-child a{
+	margin-right: 46px;
+}
+/*head end*/
+/*hero start*/
+.hero{
+    
+}
+
+
+.hero-bg{
+  border: 1px solid black;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+.rounded{
+	    --bs-border-radius: 3.375rem !important;
+}
+.hero-content{
+	padding: 510px 0 56px;
+}
+.c_p{
+	
+    margin-top: 50px;
+    padding-left: 115px;
+	font-size: 22px !important;
+	font-weight: 500 !important;
+}
+.btn-lg {
+    --bs-btn-padding-y: 0.8rem;
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-font-size: 1.5rem;
+}
+.b_margin{    
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 283px;
+}
+/*hero end*/
+/*brand start*/
+.brand{
+	
+	padding: 45px 75px 45px 0;
+}
+.brand-img{
+	margin-bottom: 15px;
+}
+.bg-yellow{
+    margin: 50px 0 50px;
+	background-color: #E5C643;
+}
+
+/*brand end*/
+/*new arrival start*/
+.new-head{}
+.new-head-img{}
+.new-h2{
+	font-weight: 600;
+	font-size: 25px;
+	text-shadow: 2px 2px #7F7F7F;
+}
+.new-p{
+	font-weight: 400;
+	font-size: 22px;
+	text-shadow: 1px 1px #191919;
+	color: #7F7F7F;
+
+}
+.new-content{
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.content{
+	
+}
+.new-img{
+
+}
+.new-icon-img{
+	margin-top: 20px;
+}
+/*new arrival end*/
+/*banner start*/
+.banner{
+	margin: 150px 0;
+   background-color: #FBE259;
+}
+
+.banner-right{
+  border: 1px solid black;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner-content {
+    padding: 110px 201px 125px 75px;
+   
+}
+.b-h1{
+	font-weight: 900;
+	font-size: 80px;
+}
+.b-brdr{
+	margin-right: 100px;
+	border: 1px solid black;
+}
+.b-p{
+	font-size: 22px;
+    font-weight: 700;
+}
+.b-pl{
+	font-size: 22px;
+}
+.b-btn{
+	margin-top: 55px;
+	width: 190px;
+	height: 70px;
+	font-size: 22px;
+}
+/*banner end*/

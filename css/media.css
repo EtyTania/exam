@@ -1,0 +1,247 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.img-fluid {
+    max-width: 80%;
+}
+.c_padding {
+    padding: 20px 0 0 !important;
+}
+.menu ul li a {
+    margin-right: 20px;
+}
+.menu ul li:last-child a{
+	margin-right: 16px;
+}
+.offcanvas{
+    --bs-offcanvas-width: 200px !important;
+}
+/*header end*/
+/*hero start*/
+.hero-content {
+    padding: 55px 0 0;
+}
+.c_p {
+    margin-top: 140px;
+    padding-left: 20px; 
+    font-size: 17px !important;
+}
+.b_margin{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 105px;
+}
+.btn-lg {
+    --bs-btn-padding-y: 0.5rem !important;
+    --bs-btn-padding-x: .5rem !important;
+    --bs-btn-font-size: .6rem !important;
+}
+
+/*hero end*/
+/*brand start*/
+.bg-yellow{
+    margin: 40px 0 40px;
+}
+.brand{
+    padding: 20px 65px 20px 0;
+}
+.brand-img{
+    margin-bottom: 10px;
+}
+
+/*brand end*/
+/*new-arrival start*/
+.new-head-img {
+    width: 50% !important;
+}
+.new-h2{
+   font-size: 22px;
+}
+.new-p{
+    font-size: 20px;
+}
+/*new-arrival end*/
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.img-fluid {
+    max-width: 85%;
+}
+.c_padding {
+    padding: 30px 0 40px !important;
+}
+.menu ul li a {
+    margin-right: 20px;
+}
+.menu ul li:last-child a{
+	margin-right: 16px;
+}
+.offcanvas{
+    --bs-offcanvas-width: 260px !important;
+}
+/*header end*/
+/*hero start*/
+.hero-content {
+    padding: 80px 0 0px;
+}
+.c_p {
+    margin-top: 125px;
+    padding-left: 40px;
+    font-size: 17px !important;
+}
+.b_margin{
+    margin-top: 0px;
+    margin-bottom: 35px;
+    margin-left: 105px;
+}
+.btn-lg {
+    --bs-btn-padding-y: 0.5rem !important;
+    --bs-btn-padding-x: .5rem !important;
+    --bs-btn-font-size: .8rem !important;
+}
+
+/*hero end*/
+/*brand start*/
+.bg-yellow{
+    margin: 40px 0 40px;
+}
+.brand{
+    padding: 20px 65px 20px 0;
+}
+.brand-img{
+    margin-bottom: 10px;
+}
+
+/*brand end*/
+/*new-arrival start*/
+.new-head-img {
+    width: 50% !important;
+}
+
+/*new-arrival end*/
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*header start*/
+.c_padding {
+    padding: 30px 0 40px !important;
+}
+.menu ul li a {
+    margin-right: 20px;
+}
+.menu ul li:last-child a{
+	margin-right: 16px;
+}
+.offcanvas{
+    --bs-offcanvas-width: 260px !important;
+}
+/*header end*/
+/*hero start*/
+.hero-content {
+    padding: 150px 0 35px;
+}
+.c_p {
+    margin-top: 140px;
+    padding-left: 60px;
+    font-size: 17px !important;
+}
+.b_margin{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 140px; 
+}
+.btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .8rem;
+}
+
+/*hero end*/
+/*brand start*/
+.brand{
+    padding: 20px 65px 20px 0;
+}
+.brand-img{
+    margin-bottom: 15px;
+}
+
+/*brand end*/
+/*new-arrival start*/
+.new-head-img {
+    width: 50%;
+}
+
+/*new-arrival end*/
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/*header start*/
+.c_padding {
+    padding: 30px 0 40px !important;
+}
+.menu ul li a {
+    margin-right: 20px;
+}
+.menu ul li:last-child a{
+	margin-right: 16px;
+}
+
+/*header end*/
+/*hero start*/
+.hero-content {
+    padding: 165px 0 1px;
+}
+.c_p {
+    margin-top: 210px;
+    padding-left: 75px;
+    font-size: 20px !important;
+}
+.b_margin {
+    margin-bottom: 60px;
+    margin-left: 190px;
+}
+.btn-lg {
+    --bs-btn-padding-y: 0.7rem;
+    --bs-btn-padding-x: 1.2rem;
+    --bs-btn-font-size: 1.2rem;
+}
+
+/*hero end*/
+
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*hero start*/
+.hero-content {
+    padding: 345px 0 10px;
+}
+.c_p {
+    margin-top: 110px;
+    padding-left: 88px;
+    font-size: 20px !important;
+}
+.b_margin {
+    margin-bottom: 75px;
+    margin-left: 225px;
+}
+.btn-lg {
+    --bs-btn-padding-y: 0.7rem;
+    --bs-btn-padding-x: 1.2rem;
+    --bs-btn-font-size: 1.2rem;
+}
+
+/*hero end*/
+ }
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+}
