@@ -237,7 +237,11 @@ body {
 }
 .ftr-content1{}
 .ftr-content2{
-   color: #D9D9D9;
+  color:#D9D9D9;
+}
+.ftr-content2 ul li a{
+	text-decoration: none !important;
+	color:#8E8E8E  !important;
 }
 .f-p2{
 	margin-bottom:30px !important;
