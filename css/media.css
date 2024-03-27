@@ -10,10 +10,10 @@
 .menu ul li a {
     margin-right: 20px;
 }
-.menu ul li:last-child a{
+.menu ul li:last-child a {
 	margin-right: 16px;
 }
-.offcanvas{
+.offcanvas {
     --bs-offcanvas-width: 200px !important;
 }
 /*header end*/
@@ -61,6 +61,111 @@
     font-size: 20px;
 }
 /*new-arrival end*/
+/*banner start*/
+.banner {
+    margin: 70px 0;
+}
+.banner-right {
+    border: 0px;
+    margin-left: 45px !important;
+}
+
+.banner-content {
+   padding: 40px 10px 1px 25px !important;
+}
+.b-h1 {
+    font-size: 25px !important;
+}
+.b-p {
+    font-size: 16px;
+}
+.b-brdr {
+    margin-right: 20px;
+}
+.b-pl {
+    font-size: 16px;
+}
+.b-btn {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/*banner end*/
+/*voucher start*/
+.v-pad {
+    padding: 80px 30px 0 30px;
+}
+.voucher-content {
+    text-align: center;
+    margin-left: 40px;
+    padding: 30px 20px 40px 20px;
+}
+.v-h1 {
+    font-size: 20px;
+}
+.v-p {
+    margin-top: 10px;
+    margin-bottom: 35px !important;
+    font-size: 17px;
+}
+.v-img{
+    margin-left: 35px;
+}
+.img-icon {
+    width: 45%;
+    margin-right: 0px;
+}
+/*voucher end*/
+/*promo start*/
+.promo {
+    padding: 45px 20px;
+}
+.p-h1 {
+  font-size: 25px;
+}
+.p-p {
+    font-size: 17px;
+}
+.sform {
+    font-size: 13px;
+    position: relative;
+    margin: 0 auto;
+    width: 276px;
+}
+.sform input {
+    padding: 0px 79px 0 5px;
+    width: 225px;
+    height: 30px;
+}
+.sform button {
+    font-size: 12px;
+    height: 25px;
+    width: 47px;
+    position: absolute;
+    cursor: pointer;
+    top: 3px;
+    right: 28px;
+}
+/*promo end*/
+/*footer start*/
+.ftr-content{
+    padding: 50px 0 70px;
+}
+.ftr-content1 {
+    text-align: center;
+}
+.ftr-content2 {
+    margin-top: 35px;
+}
+.f-p {
+    margin: 25px 0 !important;
+}
+.f-p2{
+    margin-bottom:20px !important;
+}
+/*footer end*/
  }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -119,8 +224,110 @@
 .new-head-img {
     width: 50% !important;
 }
-
+.new-h2 {
+    font-size: 20px;
+}
+.new-p {
+    font-size: 17px;
+}
 /*new-arrival end*/
+/*banner start*/
+.banner {
+    margin: 120px 0;
+}
+.banner-right {
+    border: 0px;
+    margin-left: 45px !important;
+}
+
+.banner-content {
+
+    padding: 54px 112px 1px 109px !important;
+}
+.b-h1 {
+    font-size: 40px !important;
+}
+.b-p {
+    font-size: 16px;
+}
+.b-brdr {
+    margin-right: 51px;
+}
+.b-pl {
+    font-size: 16px;
+}
+.b-btn {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/*banner end*/
+/*voucher start*/
+.v-pad {
+    padding: 80px 30px 0 30px;
+}
+.voucher-content {
+    text-align: center;
+    margin-left: 30px;
+    padding: 50px 40px 70px 40px;
+}
+.v-h1 {
+    font-size: 30px;
+}
+.v-p {
+    margin-top: 20px;
+    margin-bottom: 35px !important;
+    font-size: 17px;
+}
+.img-icon {
+    margin-right: 15px;
+}
+/*voucher end*/
+/*promo start*/
+.promo {
+    padding: 80px 40px;
+}
+.p-h1 {
+  font-size: 28px;
+}
+.p-p {
+    font-size: 17px;
+}
+.sform input {
+    padding: 0 110px 0 5px;
+    width: 360px;
+    height: 55px;
+}
+.sform button {
+    font-size: 19px;
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    cursor: pointer;
+    top: 7px;
+    right: 40px;
+}
+/*promo end*/
+/*footer start*/
+.ftr-content{
+    padding: 80px 0 100px;
+}
+.ftr-content1 {
+    text-align: center;
+}
+.ftr-content2 {
+    margin-top: 35px;
+}
+.f-p {
+    margin: 25px 0 !important;
+}
+.f-p2{
+    margin-bottom:20px !important;
+}
+/*footer end*/
+
  }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -174,8 +381,103 @@
 .new-head-img {
     width: 50%;
 }
+.new-ar-content {
+    width: 65%;
+    margin: 100px 20px 0 40px;
+}
 
 /*new-arrival end*/
+/*banner start*/
+.banner {
+    margin: 120px 0;
+}
+
+.banner-content {
+    padding: 53px 45px 1px 45px !important;
+}
+.b-h1 {
+    font-size: 45px !important;
+}
+.b-p {
+    font-size: 16px;
+}
+.b-brdr {
+    margin-right: 52px;
+}
+.b-pl {
+    font-size: 16px;
+}
+.b-btn {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/*banner end*/
+/*voucher start*/
+.v-pad {
+    padding: 110px 100px 0 100px;
+}
+.voucher-content {
+    text-align: center;
+    margin-left: 30px;
+    padding: 50px 40px 70px 40px;
+}
+.v-h1 {
+    font-size: 35px;
+}
+.v-p {
+    margin-top: 20px;
+    margin-bottom: 40px !important;
+    font-size: 20px;
+}
+.img-icon {
+    margin-right: 15px;
+}
+/*voucher end*/
+/*promo start*/
+.promo {
+    padding: 120px 80px;
+}
+.p-h1 {
+  font-size: 35px;
+}
+.p-p {
+    font-size: 20px;
+}
+.sform input {
+    padding: 0 110px 0 5px;
+    width: 380px;
+    height: 62px;
+}
+.sform button {
+    font-size: 19px;
+    height: 45px;
+    width: 90px;
+    position: absolute;
+    cursor: pointer;
+    top: 9px;
+    right: 25px;
+}
+/*promo end*/
+/*footer start*/
+.ftr-content{
+    padding: 80px 0 100px;
+}
+.ftr-content1 {
+    text-align: center;
+}
+.ftr-content2 {
+    margin-top: 35px;
+}
+.f-p {
+    margin: 25px 0 !important;
+}
+.f-p2{
+    margin-bottom:20px !important;
+}
+/*footer end*/
 
  }
 
@@ -214,6 +516,71 @@
 }
 
 /*hero end*/
+/*banner start*/
+.banner {
+    margin: 120px 0;
+}
+
+.banner-content {
+    padding: 80px 80px 1px 60px !important;
+}
+.b-h1 {
+    font-size: 53px !important;
+}
+.b-p {
+    font-size: 19px;
+}
+
+.b-pl {
+    font-size: 17px;
+}
+.b-btn {
+    margin-top: 40px;
+    width: 135px;
+    height: 50px;
+    font-size: 20px;
+}
+
+/*banner end*/
+/*voucher start*/
+.v-pad {
+    padding: 170px 100px 0 100px;
+}
+.voucher-content {
+    padding: 145px 40px 130px 50px;
+}
+.v-h1 {
+    font-size: 35px;
+}
+.v-p {
+    margin-top: 20px;
+    margin-bottom: 40px !important;
+    font-size: 20px;
+}
+.img-icon {
+    margin-right: 15px;
+}
+/*voucher end*/
+/*promo start*/
+.promo {
+    padding: 120px 141px;
+}
+.sform button {
+    top: 12px;
+    right: 10px;
+}
+/*promo end*/
+/*footer start*/
+.ftr-content{
+    padding: 80px 0 100px;
+}
+.f-p {
+    margin: 25px 0 !important;
+}
+.f-p2{
+    margin-bottom:20px !important;
+}
+/*footer end*/
 
 }
 
@@ -239,6 +606,44 @@
 }
 
 /*hero end*/
+/*banner start*/
+.banner-content {
+    padding: 87px 89px 31px 67px !important;
+}
+.b-h1 {
+    font-size: 68px !important;
+}
+/*banner end*/
+/*voucher start*/
+.v-pad {
+    padding: 170px 100px 0 100px;
+}
+.voucher-content {
+    padding: 145px 40px 130px 50px;
+}
+.v-h1 {
+    font-size: 35px;
+}
+.v-p {
+    margin-top: 20px;
+    margin-bottom: 40px !important;
+    font-size: 20px;
+}
+.img-icon {
+    margin-right: 15px;
+}
+/*voucher end*/
+/*promo start*/
+.promo {
+    padding: 120px 141px;
+}
+/*promo end*/
+/*footer start*/
+.ftr-content{
+    padding: 80px 0 100px;
+}
+/*footer end*/
+
  }
 
 /*Extra extra large devices (large desktops, 1400px and up)*/

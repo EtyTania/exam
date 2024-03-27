@@ -5,13 +5,25 @@
 /*common */
 body {
 	font-family: "Poppins", sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 400;
 	color: #242323;
 }
 .c_padding{
 	padding: 46px 0 56px !important;
 }
+.btn-hvr:hover{
+	transition: .3s;
+	color: black;
+	background-color: #E5C643; !important;
+}
+.hvr1:hover{
+	transform: scale(0.8);
+}
+.hvr2:hover{
+	transform: scale(1.2);
+}
+
 
 /*common */
 /*head start*/
@@ -25,10 +37,6 @@ body {
 }
 /*head end*/
 /*hero start*/
-.hero{
-    
-}
-
 
 .hero-bg{
   border: 1px solid black;
@@ -69,6 +77,7 @@ body {
 .brand-img{
 	margin-bottom: 15px;
 }
+
 .bg-yellow{
     margin: 50px 0 50px;
 	background-color: #E5C643;
@@ -90,18 +99,21 @@ body {
 	color: #7F7F7F;
 
 }
-.new-content{
-	margin-right: 20px;
-	margin-top: 30px;
+.new-ar-content{
+	margin: 100px 20px 0 20px;
 }
-.content{
-	
+.new-content{
+	margin-right: 10px;
+	margin-top: 30px;
 }
 .new-img{
 
 }
 .new-icon-img{
 	margin-top: 20px;
+}
+.new-icon-img:hover{
+	transform: scale(0.8);
 }
 /*new arrival end*/
 /*banner start*/
@@ -142,3 +154,105 @@ body {
 	font-size: 22px;
 }
 /*banner end*/
+/*voucher start*/
+.v-pad{
+	padding: 200px 100px 0 100px;
+}
+.voucher-content{
+	padding: 205px 50px 150px 50px;
+}
+.v-h1{
+	font-weight: 900;
+    font-size: 45px;
+}
+.v-p{
+	margin-top: 30px;
+	margin-bottom: 50px !important;
+	font-size: 20px;
+	color: #7C7C7C;
+}
+.v-icon{
+
+}
+.img-icon{
+	width: 35%;
+	margin-right: 20px;
+}
+
+/*voucher end*/
+/*promo start*/
+.promo{
+	text-align: center;
+	color: #FFFFFF;
+	padding: 155px 350px;
+}
+.p-h1{
+	font-weight: 700;
+    font-size: 41px;
+}
+.p-p{
+	margin:25px 0 !important;
+	font-size: 25px;
+}
+.sform{
+	font-size: 20px;
+	position: relative;
+	margin: 0 auto;
+	width: 430px;
+	
+}
+.sform input{
+	padding: 0 110px 0 5px;
+    width: 431px;
+    height: 76px;
+    color: #626262;
+    border-bottom: 1px solid #333333;
+}
+.sform input:focus{
+	outline: 0;
+}
+.sform button{
+	position: absolute;
+    cursor: pointer;
+    top: 6px;
+    right: 6px;
+}
+
+/*promo end*/
+/*footer start*/
+.ftr{
+	background-color: #000000;
+}
+.ftr-content{
+	color: white;
+	padding: 100px 0 120px;
+}
+.f-h1{
+	font-size: 30px;
+	font-weight: 700;
+}
+.f-p{
+	margin:30px 0 !important;
+    color: #8E8E8E;
+}
+.ftr-content1{}
+.ftr-content2{
+   color: #D9D9D9;
+}
+.f-p2{
+	margin-bottom:30px !important;
+    color: #8E8E8E;
+}
+.icon ul li{
+	
+	/*background-color:#E5C643 !important;*/
+}
+.icon ul li i{
+    font-size: 45px;
+	transition: .3s;
+}
+.icon ul li i:hover{
+	color: white;
+	transform: scale(1.2);
+}
+/*footer end*/
